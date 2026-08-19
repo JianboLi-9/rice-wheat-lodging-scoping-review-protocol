@@ -136,12 +136,12 @@ Include agricultural rice and wheat lodging studies. Wheat includes winter wheat
 
 ## 8. Information sources and database roles
 
-The prespecified formal evidence-identification sources are **Web of Science Core Collection, IEEE Xplore and CNKI**. Scopus was considered and a translation draft was developed, but it is **not included in the prespecified formal database set at protocol freeze because authenticated institutional document-search access could not be secured**. If Scopus becomes available during the formal review, adding it requires a documented protocol amendment. Backward and forward citation searching are approved supplementary methods under Step 3. Google Scholar and Crossref are supplementary discovery/verification sources only, not primary formal bibliographic databases. Bibliometric corpus source/field integration remains a later decision and is not automatically identical to the evidence-identification sources. The historical decision table remains archived in `00_Protocol\Information_Sources_Decision_Table.xlsx`. 区分：
+The prespecified formal evidence-identification sources are **Web of Science Core Collection, IEEE Xplore and CNKI**. Scopus was considered and a translation draft was developed, but it is **not included in the prespecified formal database set at protocol freeze because authenticated institutional document-search access could not be secured**. If Scopus becomes available during the formal review, adding it requires a documented protocol amendment. Backward and forward citation searching are approved supplementary methods under Step 3. Google Scholar and Crossref are supplementary discovery/verification sources only, not primary formal bibliographic databases. Bibliometric corpus source/field integration follows the frozen AMEND-2.2 rules and is not automatically identical to the evidence-identification sources. The historical decision table remains archived in `00_Protocol\Information_Sources_Decision_Table.xlsx`. 区分：
 
 1. **Evidence Identification Sources**：尽可能全面识别证据。
 2. **Bibliometric Corpus Source**：提供字段一致、可重复的计量语料库。
 
-Main bibliometric corpus尚未最终冻结。数据库、平台、访问状态、语言、出版类型、字段映射和多数据库合并方式均需用户确认。
+Main bibliometric corpus尚未最终冻结；publication-level unit, source/field provenance, canonical mapping, citation handling, author-keyword primary network and counting/normalization rules are frozen by AMEND-2.2. Corpus membership and source-specific field availability will be recorded after formal identification and screening; no rule is silently changed.
 
 ## Protocol dissemination / public availability
 
@@ -181,7 +181,7 @@ Clarivate当前官方字段定义用于解释TS/Topic、TI/Title、AB/Abstract�
 
 ## 11.1 Stage 2 final consolidation — development record
 
-This subsection records the completed offline Stage 2 development work. It is not a formal database search record, does not create PRISMA counts and does not override the pending methodological decisions in this protocol.
+This subsection records the completed offline Stage 2 development work. It is not a formal database search record, does not create PRISMA counts and does not override the frozen AMEND-2.2 analytic rules or the later corpus gate.
 
 **Key development database:** Web of Science Core Collection, executed through the official Shandong University of Science and Technology WebVPN/CAS authenticated development session.
 
@@ -296,7 +296,7 @@ After the final evidence and bibliometric corpora are frozen, bibliometric outpu
 
 - v1.0的Markdown和DOCX已复制到`00_Protocol\Versions`，作为历史版本保留。
 - 本次修改逐项写入`10_Audit_Log\Protocol_Change_Log.xlsx`，Approved by统一为Pending user review。
-- User-approved decisions in the 2026-08-18 finalization command are recorded in `10_Audit_Log\Decision_Log.xlsx`; bibliometric-corpus and field-integration decisions remain pending and are not silently resolved.
+- User-approved decisions in the 2026-08-18 finalization command are recorded in `10_Audit_Log\Decision_Log.xlsx`; corpus membership remains pending, while the v2.2 field-integration rules are frozen and are not silently altered.
 - 旧80/220/209/201/85等探索性数字不进入新PRISMA；VOSviewer阈值不预设。
 
 **Stage 2 search-strategy development complete. v2.0 substantive Protocol content FINAL FROZEN; v2.1 and v2.1a prospective administrative amendments were recorded before formal search; AMEND-2.2-BIBLIOMETRIC-METHODS publicly versions analytic rules that were frozen internally before the first formal WoS query but published afterward because of workflow sequencing. Formal WoS WOS-A-001 query/count executed 2026-08-20 03:34:42 with 217 result-page records; RAW export remains pending. No screening, extraction, PRISMA finalization, Biblioshiny or VOSviewer has been performed.** Scopus remains excluded from the prespecified formal set for access/resource reasons; CNKI remains an approved formal source but currently has a security-challenge blocker. HG-01 IEEE terminology verification is closed; HG-02/HG-03 remain open administrative actions.
@@ -304,7 +304,6 @@ After the final evidence and bibliometric corpora are frozen, bibliometric outpu
 Protocol v2.2 CURRENT is the operative view. Under AMEND-2.1-REG-TIMING, AMEND-2.1A-PUBLIC-AVAILABILITY and AMEND-2.2-BIBLIOMETRIC-METHODS, the public protocol version and analytic-method chronology must be reported transparently; the first formal WoS result-page observation of 217 is valid, while the RAW export, CNKI and IEEE branches remain pending. Development searches are not formal review searches and are not PRISMA identification counts.
 
 本v2.2完整协议文件为当前操作版本。不得因v2.2公开时序偏差而回溯或作废已观察的217条WoS结果页；不得重新改写WOS-A-001。可继续执行官方WoS RAW导出恢复和其他已授权数据库识别，但在RAW校验、正式筛选与语料库冻结前不得执行筛选、Pilot Screening、最终PRISMA、Biblioshiny或VOSviewer。
-
 
 
 
