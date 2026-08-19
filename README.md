@@ -26,6 +26,8 @@ Final manuscript authorship, author order, affiliation, funding, conflict-of-int
 
 At this initial public release, no formal WoS, CNKI or IEEE search has been executed; no formal result count, PRISMA count, screening, extraction or bibliometric output exists. The public archive is not an OSF registration and does not claim that formal review conduct has begun.
 
+The `NOT PUBLIC` wording retained in the header of `05_Search_Appendix_FINAL.md` reflects the earlier frozen pre-release status; this synchronized package was publicly archived on GitHub on 2026-08-20.
+
 ## Integrity
 
 `SHA256_MANIFEST.txt` records the SHA-256 value of every payload file in this package (the manifest does not self-hash). Future changes must use a new commit/tag and a new amendment or version record when applicable.
