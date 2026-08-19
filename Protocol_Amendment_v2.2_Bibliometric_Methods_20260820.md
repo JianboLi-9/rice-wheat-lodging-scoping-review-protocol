@@ -71,3 +71,5 @@ Record exact software versions, parameters, corpus denominator, unit of analysis
 
 No formal bibliometric corpus is frozen and no Biblioshiny/VOSviewer/bibliometrix analysis has been run. These rules become operational only after formal identification, screening, extraction boundaries and corpus provenance are complete. Software defaults may not redefine eligibility.
 
+
+
